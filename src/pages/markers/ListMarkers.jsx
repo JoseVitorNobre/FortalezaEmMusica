@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Marker } from "@react-google-maps/api";
-import Popup from "../../components/Popup";
+import Popup from "../../components/Popup/Popup";
 import { Link } from "react-router-dom";
 
 const ListMarkers = (props) =>{
