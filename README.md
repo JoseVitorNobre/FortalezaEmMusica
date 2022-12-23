@@ -13,4 +13,17 @@ A aplicação Fortaleza em Música, desenvolvida como Trabalho de Conclusão de 
 **Vizualizar Pontos** - Ao clicar em um ponto do mapa, você pode vizualizar as informações daquele ponto, como: nome do artista, suas inspirações, letra da musica e etc.
 
 ## Como usar
-
+Após clonar o repositorio execute esse comando no terminal:
+```bash
+  npm install
+```
+Esse comando irá instalar todas as dependencias que o codigo precisa.
+Em seguida será necessario gerar as keys, a pasta das keys se encontram no caminho
+``
+  src\keys
+``
+por questões de segurança as keys oficiais não constam aqui, caso você queira usar o sistema ou você deverá entrar em contato comigo para pedir as keys, ou você também pode gerar suas proprias keys, as keys que você precisa gerar, é uma para o mapa e outra para o firebase.
+Para executar o codigo execute o comando:
+```bash
+  npm run dev
+```
